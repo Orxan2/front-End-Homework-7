@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 1000px;
+  height: 600px;
+  border: 5px solid black;
+  margin: auto;
+  position: relative;
+
+  img {
+   position: absolute;
+   width: 200px;
+   height: 100px;
+
+  
+   animation: slideInRight 5s infinite;
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+   top: 250px;
+   left: 0;
+  }
+
+  10% {
+   top: 500px;
+  left: 400px;   
+}
+  
+
+  40% {
+  
+   
+    top: 250px;
+    left: 800px;   
+  }
+
+  80% {
+    top: 0;
+    left: 400px;   
+
+  }
+
+  100% {
+    top: 250px;
+   left: 0;
+  }
+}
